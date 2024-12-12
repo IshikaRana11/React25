@@ -10,6 +10,7 @@ import QrCodeGenerator from "./Components/Qr-Code generator/index.jsx";
 import LightDarkSwitcher from "./Components/dark-light-switch/index.jsx";
 import ScrollIndicator from "./Components/scroll-indicator/index.jsx";
 import TabTest from "./Components/Custom-Tabs/tabTest.jsx";
+import ModelTest from "./Components/Custom-Model/Model-test.jsx";
 export default function App() {
   return (
     <div
@@ -27,7 +28,8 @@ export default function App() {
       {/* <QrCodeGenerator /> */}
       {/* <LightDarkSwitcher /> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
-      <TabTest />
+      {/* <TabTest /> */}
+      <ModelTest />
     </div>
   );
 }
