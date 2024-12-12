@@ -9,6 +9,7 @@ import { Menus } from "./Components/Tree-View/data.js";
 import QrCodeGenerator from "./Components/Qr-Code generator/index.jsx";
 import LightDarkSwitcher from "./Components/dark-light-switch/index.jsx";
 import ScrollIndicator from "./Components/scroll-indicator/index.jsx";
+import TabTest from "./Components/Custom-Tabs/tabTest.jsx";
 export default function App() {
   return (
     <div
@@ -25,7 +26,8 @@ export default function App() {
       {/* <TreeView menus={Menus} /> */}
       {/* <QrCodeGenerator /> */}
       {/* <LightDarkSwitcher /> */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+      <TabTest />
     </div>
   );
 }
